@@ -6,7 +6,7 @@ In the terminal screen that appears, enter the following command:
 
 (In the Anaconda Prompt you can paste with right-click)
 
-	cd Documents
+	cd %USERPROFILE%\Documents
  
 Then,
 
