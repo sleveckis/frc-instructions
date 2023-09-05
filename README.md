@@ -4,7 +4,7 @@
 
 Unzip the frc.zip file at the address below into your Documents folder on your C: drive.
 
-	V:\D_Users\107_Leveckis\Projects\frc
+	P:\05_AnalysisProjects_Working\EDX4CCS\Task2.2\frc
 
 After unzip, there should be a folder called 'frc' in your Documents folder.
 
