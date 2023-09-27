@@ -41,6 +41,22 @@ Finally, to run the program:
 
 These commands will have created the project folder in your Documents folder. Because the project folder downloaded is a git repository, if any future changes are made to the project, it will be trivial to "pull" them to your machine with git instead of re-downloading them and moving files around manually. 
 
+## Executing Again After Setup
+To run the calculator after first-time setup (you don't need to clone the repo and the virtual environment again), do the following.
+Open up your Anaconda Prompt and enter the following commands:
+
+First,
+
+	cd %USERPROFILE%\Documents\frc\Freq_Ratio_Calculator
+ 
+Then, 
+
+	conda activate frc
+ 
+ Finally,
+ 
+	python fr_calc_main.py
+
 ## Updating the Frequency Ratio Calculator
 
 Periodically there will be bugfixes and changes to the FRC. Thankfully with git, incorporating these is very simple. First, open up your Anaconda Prompt. 
@@ -55,21 +71,4 @@ Then, download all the changes automatically with one command:
 
 Note that it is ok to do this at any time, the worst that will happen is that git will inform you that there are no changes to be pulled.
 
-## Executing Again After Setup
-To run the calculator after first-time setup (you don't need to clone the repo and the virtual environment again), do the following.
-Press the windows key on your keyboard, type in "Anaconda Prompt" and hit enter.
-Enter the following commands:
 
-	cd %USERPROFILE%\Documents\frc\Freq_Ratio_Calculator-master
- 
-Then, 
-
-	cd Freq_Ratio_Calculator
- 
-Then, 
-
-	conda activate frc
- 
- Finally,
- 
-	python fr_calc_main.py
