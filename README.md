@@ -2,7 +2,7 @@
 
 ## First-Time Setup and Execution (Using Git)
 
-First, go to your Freq_Ratio_Calculator-master folder at Documents/frc/ and delete it. This is the folder you manually pasted a little while ago. You should still have a folder called 'frc' in your Documents folder, and it should be empty. 
+First, go to your Freq_Ratio_Calculator-master folder at Documents/frc/ and delete it. This is the folder you manually pasted a little while ago. After deleing 'Freq_Ratio_Calculator' and its contents, you should still have a folder called 'frc' in your Documents folder, and it should be empty. 
 
 Press the windows key on your keyboard (or click the windows icon on the bottom left corner of your screen), type in "Anaconda Prompt" and hit enter.
 In the terminal screen that appears, enter the following commands:
@@ -16,8 +16,6 @@ First, point the Anaconda Prompt to the project folder:
 Then, clone the repository with git
 
 	git clone https://github.com/NETL-RIC/Freq_Ratio_Calculator.git
-
- This should create a valid path along /Documents/frc/Freq_Ratio_Calculator
 
 ## Creating the Virtual Environment
 
