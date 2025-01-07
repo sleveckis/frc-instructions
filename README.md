@@ -1,72 +1,44 @@
 # Frequency Ratio Calculator
+## Distribution 
 
-## First-Time Setup and Execution (Using Git)
+Instead of using git, it has been easier to just copy and paste the source code from P(10.50.10.198)://05_AnalysisProjects_Working/EDX4CCS/Task2.2/frc/Frequency_Ratio_Calculator into your personal Documents folder.
 
-First, go to your Freq_Ratio_Calculator-master folder at Documents/frc/ and delete it. This is the folder you manually pasted a little while ago. After deleing 'Freq_Ratio_Calculator' and its contents, you should still have a folder called 'frc' in your Documents folder, and it should be empty. 
+Any updates will be pasted into that P: drive location, which will then need to be re-pasted into the user's Documents folder and overwrite the existing source code.
+
+## Setup
+
+You'll first need to create a python virtual environment to run the code. This can be done using a file in the source code. It is presupposed that you have Anaconda installed
 
 Press the windows key on your keyboard (or click the windows icon on the bottom left corner of your screen), type in "Anaconda Prompt" and hit enter.
 In the terminal screen that appears, enter the following commands:
 
+#### Virtual Environment 
 First, point the Anaconda Prompt to the project folder:
 
-	cd %USERPROFILE%\Documents\frc\
- 
-*Note: In the Anaconda Prompt you can paste with right-click*
+	cd %USERPROFILE%\Documents\Frequency_Ratio_Calculator\
 
-Then, clone the repository with git
+ *If this command did not work, ensure you have a folder called 'Frequency Ratio Calculator" in your Documents folder
 
-	git clone https://github.com/NETL-RIC/Freq_Ratio_Calculator.git
-
-## Creating the Virtual Environment
-
-In your Anaconda Prompt, enter the command 
+ Then, check if you already have the virtual environment before adding a new one, with:
 
  	conda env list
 
-If you don't see an entry called "frc" in the list displayed, then follow the steps below to create a virtual environment. Otherwise, you can skip to "Executing Again After Setup" below.
- 
-To create the virtual environment in the project folder:
+  If there is no entry called 'frc' in the results, create the environment:
 
 	conda create -n frc --file ./virtual-env/frc-xplct.txt
- 
-Then, to activate the virtual environment:
 
-	conda activate frc
- 
-Finally, to run the program:
+ This will create the environment and name it frc, which you can double-check with 'conda env list' again if you wish.
 
-	python fr_calc_main.py
+## Running the Program
 
-These commands will have created the project folder in your Documents folder. Because the project folder downloaded is a git repository, if any future changes are made to the project, it will be trivial to "pull" them to your machine with git instead of re-downloading them and moving files around manually. 
+First, point the Anaconda Prompt to the project folder:
 
-## Executing Again After Setup
-To run the calculator after first-time setup (you don't need to clone the repo and the virtual environment again), do the following.
-Open up your Anaconda Prompt and enter the following commands:
+	cd %USERPROFILE%\Documents\Frequency_Ratio_Calculator\
 
-First,
+ Then, activate the virtual environment:
 
-	cd %USERPROFILE%\Documents\frc\Freq_Ratio_Calculator
- 
-Then, 
+ 	conda activate frc
 
-	conda activate frc
- 
- Finally,
- 
-	python fr_calc_main.py
+ Finally, run the program
 
-## Updating the Frequency Ratio Calculator
-
-Periodically there will be bugfixes and changes to the FRC. Thankfully with git, incorporating these is very simple. First, open up your Anaconda Prompt. 
-
-Then, navigate to your FRC folder with the following command:
-
-	cd %USERPROFILE%\Documents\frc\Freq-Ratio-Calculator
-
-Then, download all the changes automatically with one command:
-
- 	git pull
-
-Note that it is ok to do this at any time, the worst that will happen is that git will inform you that there are no changes to be pulled.
-
-
+ 	**python fr_calc_main.py**
