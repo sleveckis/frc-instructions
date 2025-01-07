@@ -7,10 +7,10 @@ Any updates will be pasted into that P: drive location, which will then need to 
 
 ## Setup
 
-You'll first need to create a python virtual environment to run the code. This can be done using a file in the source code. It is presupposed that you have Anaconda installed
+You'll first need to create a python virtual environment to run the code. This can be done using a file in the source code. It is presupposed that you have Anaconda installed.
 
-Press the windows key on your keyboard (or click the windows icon on the bottom left corner of your screen), type in "Anaconda Prompt" and hit enter.
-In the terminal screen that appears, enter the following commands:
+Press the windows key on your keyboard (or click the windows icon on the bottom left corner of your screen), type in "Anaconda Prompt" and hit enter. Or open your Anaconda Prompt through other means.
+The following sections will have commands that you'll type into this prompt.
 
 #### Virtual Environment 
 First, point the Anaconda Prompt to the project folder:
