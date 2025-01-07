@@ -33,7 +33,13 @@ First, point the Anaconda Prompt to the project folder:
 
 First, point the Anaconda Prompt to the project folder:
 
-	cd %USERPROFILE%\Documents\Frequency_Ratio_Calculator\
+Scott:
+
+	cd %USERPROFILE%\Documents\Freq_Ratio_Calculator\
+ 
+ Karla:
+ 
+ 	cd C:\Projects\EDX4CCS\Freq_Ratio_Calculator
 
  Then, activate the virtual environment:
 
