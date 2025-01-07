@@ -41,4 +41,4 @@ First, point the Anaconda Prompt to the project folder:
 
  Finally, run the program
 
- 	**python fr_calc_main.py**
+ 	python fr_calc_main.py
